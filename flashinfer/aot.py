@@ -405,22 +405,22 @@ def main():
     out_dir = project_root / "aot-ops"
     build_dir = project_root / "build" / "aot"
     fa2_head_dim_ = [
-        (64, 64),
+        # (64, 64),
         (128, 128),
         # (256, 256),
     ]
     fa3_head_dim_ = [
-        (192, 128),
-        (128, 128),
+        # (192, 128),
+        # (128, 128),
         # (64, 64),
         # (256, 256),
     ]
     f16_dtype_ = [
         torch.float16,
-        torch.bfloat16,
+        # torch.bfloat16,
     ]
     f8_dtype_ = [
-        torch.float8_e4m3fn,
+        # torch.float8_e4m3fn,
         # torch.float8_e5m2,
     ]
     use_sliding_window_ = [

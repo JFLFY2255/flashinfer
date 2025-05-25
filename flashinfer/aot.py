@@ -420,7 +420,7 @@ def main():
         # torch.bfloat16,
     ]
     f8_dtype_ = [
-        # torch.float8_e4m3fn,
+        torch.float8_e4m3fn,
         # torch.float8_e5m2,
     ]
     use_sliding_window_ = [
@@ -431,7 +431,7 @@ def main():
         False,
         # True,
     ]
-    add_gemma = True
+    add_gemma = False
 
     # Override
     if args.out_dir:
